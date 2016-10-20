@@ -1,0 +1,5 @@
+en:
+  flashs:
+    messages:
+      paid: "It has been paid!"
+      unpaid: "Your paid is not successful"

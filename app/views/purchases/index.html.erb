@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="panel panel-primary">
+    <div class="panel-heading">Header</div>
+    <div class="panel-body">
+      <%= form_tag purchases_path, method: :post do %>
+        <div class="form-group">
+          <%= label_tag "amount" %>
+          <%= number_field_tag "amount", "50", min: 50, class: "form-control" %>
+        </div>
+        <script src="https://checkout.webpay.jp/v3/" class="webpay-button" data-key="test_public_2eg9vp0Vxd5dbCBb1y8CwbXb" data-lang="ja"></script>
+      <% end %>
+    </div>
+  </div>
+</div>
